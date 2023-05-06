@@ -1,6 +1,6 @@
 # Porther
 
-JIT Porth[https://gitlab.com/tsoding/porth] INSPIRED interpreter
+JIT [Porth](https://gitlab.com/tsoding/porth) INSPIRED interpreter
 
 Some features:
   Lazy evaluation
