@@ -3,6 +3,8 @@
 JIT [Porth](https://gitlab.com/tsoding/porth) INSPIRED interpreter
 
 Some features:
-  Lazy evaluation
-  Console Prompt
-  Intrinsic '?' to print the currens stack
+
+1. Lazy evaluation
+2. Console Prompt
+3. Intrinsic '?' to print the currens stack
+
