@@ -1,0 +1,21 @@
+proc fib // ->
+  0 1 while over 100 < do
+    let a b in
+      a print
+      b a b add
+    end
+  end
+end
+
+proc main // ->
+  1 2 let a b in
+    3 4 let b c in 
+      c print
+      b print
+      a print
+    end
+    b print
+  end
+end
+
+main

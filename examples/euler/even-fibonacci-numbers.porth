@@ -1,0 +1,21 @@
+// By considering the terms in the Fibonacci sequence whose
+// value do not exceed four milllion, find the sum of the
+// even-valued terms.
+
+include "std/std.porth"
+
+const &acc memory end
+
+proc even // i64 -> bool
+  2 mod 0 eq
+end
+
+1 2 while over 4000000 le do
+  over even if
+    over &acc @64 add &acc !64
+  end
+
+  swap over add
+end
+
+&acc @64 println

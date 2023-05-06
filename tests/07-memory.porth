@@ -1,0 +1,13 @@
+include "std/std.porth"
+
+65 memory 0 add !8
+66 memory 1 add !8
+67 memory 2 add !8
+
+3 memory stdout write
+
+memory 0 add dup @8 1 add swap !8
+memory 1 add dup @8 1 add swap !8
+memory 2 add dup @8 1 add swap !8
+
+3 memory stdout write

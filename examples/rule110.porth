@@ -1,0 +1,37 @@
+include "std/std.porth"
+
+const N 100 end
+
+1 memory N 2 sub add !8
+
+0 while dup N 2 sub < do 
+  0 while dup N < do 
+    dup memory add @8 0 ne if
+      42 memory N add !8
+    else
+      32 memory N add !8
+    end
+    1 memory N add stdout write
+
+    1 add
+  end drop
+
+  10 memory N add !8
+  1 memory N add stdout write
+
+  memory       @8 1 shl
+  memory 1 add @8 or
+
+  1 while dup N 2 sub < do
+    swap 1 shl 7 and
+    over memory add 1 add @8 or
+    2dup 110 swap shr 1 and
+    swap memory add swap swap !8
+
+    swap
+
+    1 add
+  end drop drop
+
+  1 add
+end drop

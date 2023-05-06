@@ -1,0 +1,21 @@
+include "std/std.porth"
+
+proc fib // i64 -> i64
+  dup 2 ge if
+    dup
+    1 sub fib swap
+    2 sub fib
+    add
+  end 
+end
+
+
+proc main // -> 
+  0 while dup 19 le do
+    dup fib println
+    
+    1 add
+  end drop
+end
+
+main

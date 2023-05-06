@@ -1,0 +1,24 @@
+proc @64 // ptr -> i64
+  7 add
+
+  0
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap 1 sub swap
+  8 shl over @8 add swap drop
+end
+
+proc !64 // i64 ptr -> 
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr swap 1 add
+  swap 2dup 255 and swap !8 8 shr drop drop
+end

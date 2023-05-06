@@ -1,0 +1,106 @@
+true if
+  "a" print
+else false if*
+  2 print
+else true if*
+  3 print
+else 
+  3 print
+end
+
+false if
+  1 print
+else true if*
+  true if
+    "b" print
+  else
+    "a" print
+  end
+  "c" print
+else true if*
+  3 print
+else 
+  3 print
+end
+
+false if
+  1 print
+else false if*
+  true if
+    "b" print
+  else
+    "a" print
+  end
+
+  "-" print
+else false if*
+  3 print
+else 
+  true if 
+    "d" print
+  end
+end
+
+
+
+// true if
+//   "a" print
+// else false if*
+//   "b" print
+// else false if*
+//   "c" print
+// else 
+//   "d" print
+// end 
+
+// false if
+//   "a" 
+// else true if*
+//   "b" 
+// else false if*
+//   "c" 
+// else 
+//   "d" 
+// end print
+
+// false if
+//   "a" 
+// else false if*
+//   "b" 
+// else true if*
+//   "c" 
+// else 
+//   "d" 
+// end print
+
+// false if
+//   "a" 
+// else true if*
+//   "b" 
+// else false if*
+//   "c" 
+// else 
+//   "d" 
+// end print
+
+// true if
+//   "e" print
+// end
+
+// false if
+//   "-" print
+// else 
+//   "f" print
+// end
+
+// "" println
+
+// true if
+//   "hello" print
+// else
+//   if true
+//     "no print" print
+//   end
+
+//   "world" print
+// end

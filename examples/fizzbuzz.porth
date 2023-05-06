@@ -1,0 +1,16 @@
+1 while dup 100 le do
+  dup dup
+
+  dup 15 mod 0 eq if
+    drop
+    "FizzBuzz"
+  else dup 5 mod 0 eq if*
+    drop
+    "Buzz"
+  else dup 3 mod 0 eq if*
+    drop
+    "Fizz"
+  end println
+
+  1 add
+end

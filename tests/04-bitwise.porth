@@ -1,0 +1,4 @@
+1 5 shl print
+32 5 shr print
+3 2 and print
+2 1 or print

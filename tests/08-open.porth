@@ -1,0 +1,12 @@
+const file memory       end
+const data memory 1 add end
+
+"foo.porth" open dup 0 < if
+  "ERROR: Could not open file" println
+end file !8
+
+65 data 0 add !8
+66 data 1 add !8
+67 data 2 add !8
+
+3 data file @8 write 

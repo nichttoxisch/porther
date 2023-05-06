@@ -1,0 +1,7 @@
+"a" 1 true ? drop drop drop
+
+"a" dup ? drop drop
+"a" "b" swap ? drop drop 
+"a" "b" drop ? drop 
+"a" "b" over ? drop drop drop
+"a" "b" "c" rot ? drop drop drop

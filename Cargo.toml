@@ -1,0 +1,14 @@
+[package]
+name = "porther"
+version = "0.1.0"
+edition = "2021"
+description = "Runtime for the porth programming language"
+license = "MIT"
+repository = "github.com/nichttoxisch/porther"
+keywords = ["porth", "interpreter"]
+categories = ["compiler"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"

@@ -1,0 +1,11 @@
+// What is the largest prime factor of the number 600851475143
+
+include "std/std.porth"
+
+600851475143 2 while over 1 >  do
+  2dup mod 0 eq if
+    swap over div swap
+  else 
+    1 add
+  end
+end print drop

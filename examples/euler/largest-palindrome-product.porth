@@ -1,0 +1,33 @@
+// Find the largest palindrome made from the product of two-digit numbers
+
+include "std/std.porth"
+
+const &ans memory end
+
+proc is_palindrome // i64 -> bool
+    dup 0 while over 0 gt do
+
+    10 mul 
+    over 10 mod add 
+    swap 10 div swap
+  end
+
+  swap drop eq 
+end
+
+100 while dup 999 le do
+  100 while dup 999 le do
+    2dup mul dup is_palindrome if
+      dup &ans @64 > if &ans !64 else drop end
+    else 
+      drop
+    end
+
+
+  1 add
+  end drop
+
+  1 add
+end drop
+
+&ans @64 println

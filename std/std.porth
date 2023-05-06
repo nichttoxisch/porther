@@ -1,0 +1,14 @@
+include "std/mem.porth"
+
+const help // ->
+  "Usage: porther [source_path] [option]"               println
+  "Options:"                                            println 
+  "    -h --help    to print this usage to Stderr"      println
+  "Info:"                                               println
+  "    If no source path is provided the prompt starts" println
+end
+
+const stdout 1 end
+const stderr 2 end
+
+const 2dup over over end
